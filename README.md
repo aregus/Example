@@ -9,7 +9,7 @@ Algorithm for findPaths
 1.	create path heap   
 2.	succAvail <- true  
 3.	create first entry in heap  
-    ..a.	get first entry from NetworkTable  
+    ...a.	get first entry from NetworkTable  
     ..b.	get cost of first entry  
     ..c.	get label of first entry  
     ..d.	insert cost and first label into path heap  
