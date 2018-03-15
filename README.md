@@ -6,17 +6,17 @@ Data Structures
 
 Algorithm for findPaths  
 
-1.	create path heap   
-2.	succAvail <- true  
-3.	create first entry in heap  
-    a.	get first entry from NetworkTable  
-    b.	get cost of first entry  
-    c.	get label of first entry  
-    d.	insert cost and first label into path heap  
-4.	repeat while succAvail is true  
-    a.	succAvail <- false  
-    b.	create a temp heap  
-    c.	while there are entries in the path heap  
+* 1.	create path heap   
+* 2.	succAvail <- true  
+* 3.	create first entry in heap  
+    * a.	get first entry from NetworkTable  
+    * b.	get cost of first entry  
+    * c.	get label of first entry  
+    * d.	insert cost and first label into path heap  
+* 4.	repeat while succAvail is true  
+    * a.	succAvail <- false  
+    * b.	create a temp heap  
+    * c.	while there are entries in the path heap  
             i.	remove the top entry from the heap  
             ii.	get the last entry name from the entry list  
             iii.	get the successor list for the last entry name  
@@ -30,7 +30,4 @@ Algorithm for findPaths
     d.	copy temp heap to path heap  
  
 
-* Item 1
-* Item 2
-  * Sub Item 1
-  * Sub Item 2
+
